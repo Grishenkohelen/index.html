@@ -1,0 +1,21 @@
+@media screen and  (max-width: 400px){
+    .soc-icon{
+        display: none;
+    }
+    .nav__button{
+        display: flex;
+    }
+    .products{
+        padding: 10px;
+    }
+    .products__list, .about_grid, .box{
+        flex-direction: column;
+    }
+   .about_card{
+       width: 100%;
+   }
+   .box{
+       width: 65%;
+     
+   }
+}
